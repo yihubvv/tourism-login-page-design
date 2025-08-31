@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+
+  <!-- import css styles from source library and css page -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Denotes that this is a login section, this is a 5 line section -->
+  <section id="login-form">
+    <h1>WELCOME!</h1>
+    <!-- first input for username -->
+    <div class="input-wrap in-1">
+      <input type="text" spellcheck="false" placeholder="email/username" required>
+      <i class="fa-solid fa-user"></i>
+    </div>
+
+    <!-- second input for password -->
+    <div class="input-wrap in-2">
+      <input type="password" placeholder="password" spellcheck="false" required>
+      <i class="fa-solid fa-lock"></i>
+    </div>
+
+    <!-- third div for remembering me and forgetting password -->
+    <div class="rem">
+      <p>
+        <label class="label1"><input type="checkbox">
+        Remember me
+        </label>
+        <a href="#">Forgot password?</a>
+      </p>
+    </div>
+
+    <!-- a button for log in -->
+    <button>Login</button>
+
+    <!-- last line for register -->
+    <p class="reg">
+      Don't have an account?
+      <a href="#">Register</a>
+    </p>
+  </section>
+</body>
+</html>
